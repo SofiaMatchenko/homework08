@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+.wrap{
+    margin: 0 auto;
+    width: 90%;
+}
+h1{
+    background: #808080;
+}
+nav li {
+    list-style-type: none;
+    text-decoration: underline;
+    margin: 2%;
+}
+nav, .main, aside{
+    float: left;
+    width: 15%;
+    margin: 2%;
+}
+.main{
+    width: 50%;
+}
+aside{
+    width: 20%;
+    background: #add8e6;
+}
+@media screen and (max-width: 500px) {
+    nav, .main, aside{
+        width: 98%;
+        margin: 1%;
+    }
+}
