@@ -1,3 +1,4 @@
+/*Common properties*/
 *{
     margin: 0;
     padding: 0;
@@ -7,9 +8,11 @@
     margin: 0 auto;
     width: 90%;
 }
+/*Header properties*/
 h1{
     background: #ffA500;
 }
+/*Properties of content*/
 .column{
     width: 30%;
     margin: 1%;
@@ -23,6 +26,10 @@ p, .img{
     float: left;
     margin: 1%;
 }
+img{
+    width: 100%;
+}
+/*Adaptive properties*/
 @media screen and (max-width: 500px) {
     .column{
         width: 98%;

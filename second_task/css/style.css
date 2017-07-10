@@ -1,3 +1,4 @@
+/*Common properties*/
 *{
     margin: 0;
     padding: 0;
@@ -7,16 +8,18 @@
     margin: 0 auto;
     width: 90%;
 }
-h1{
-    background: #808080;
-}
 h2, p, h3{
     padding: 3% 0;
 }
-a {
+/*Header properties*/
+h1{
+     background: #808080;
+ }
+a{
     text-decoration: none;
     color: #000;
 }
+/*Properties for navigation*/
 table{
     width: 100%;
 }
@@ -24,6 +27,11 @@ td{
     border-bottom: solid 1px #808080;
     padding: 10% 0 5% 0;
 }
+/*Properties for images*/
+img{
+    width: 100%;
+}
+/*Propeties for location*/
 nav, .main, aside{
     float: left;
     width: 15%;
@@ -36,6 +44,7 @@ aside{
     width: 20%;
     background: #add8e6;
 }
+/*Adaptive properties*/
 @media screen and (max-width: 500px) {
     nav, .main, aside{
         width: 98%;
